@@ -1,0 +1,9 @@
+
+# filepath: ~/.config/wofi/config
+style=/home/simonkdev/.config/wofi/style.css
+width=800
+height=400
+prompt=Search
+term=alacritty
+allow_images=true
+image_size=20

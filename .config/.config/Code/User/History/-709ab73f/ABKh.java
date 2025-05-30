@@ -1,0 +1,71 @@
+package com.javadevs.gui.game;
+import com.javadevs.gui.game.uiButtonListeners;
+
+
+
+import java.awt.Dimension;
+import java.awt.event.ActionListener;
+
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
+public class topBar extends JPanel 
+{ 
+    Icon BACK_ICON = new ImageIcon("src/main/resources/icons/back.png");
+    Icon SETTINGS_ICON = new ImageIcon("src/main/resources/icons/settings.png");
+
+
+    uiButtonListeners LIS_LIB = new uiButtonListeners();
+
+    JButton backButton;
+    JButton settingsButton;
+    Dimension BAR_SPACER = new Dimension(300, 0); // Space between the two buttons
+
+    public topBar() {
+        setPreferredSize(new Dimension(400, 50));
+        setLayout(new BoxLayout(this, BoxLayout.X_AXIS)); // Use BoxLayout for proper spacing
+        load_buttons_bar();
+        setOpaque(false); // Make sure background is transparent for future-proofing
+        setVisible(true);
+    }
+
+    public void load_buttons_bar() {
+        backButton = new JButton();
+        settingsButton = new JButton();
+
+        backButton.setPreferredSize(new Dimension(50, 50));
+        settingsButton.setPreferredSize(new Dimension(50, 50));
+
+        backButton.setIcon(BACK_ICON);
+        settingsButton.setIcon(SETTINGS_ICON);
+
+        backButton.setContentAreaFilled(false);
+        backButton.setOpaque(false);
+        settingsButton.setContentAreaFilled(false);
+        settingsButton.setOpaque(false);
+
+        backButton.setBorderPainted(false);
+        settingsButton.setBorderPainted(false);
+
+        backButton.setFocusPainted(false);
+        settingsButton.setFocusPainted(false);
+
+        backButton.addActionListener(LIS_LIB.BACK_BUTTON_LISTENER);
+        settingsButton.addActionListener(LIS_LIB.SETTINGS_BUTTON_LISTENER);
+        
+        JPanel SPACER_PANEL = new JPanel();
+        SPACER_PANEL.setPreferredSize(BAR_SPACER);
+        SPACER_PANEL.setOpaque(false); // Make sure the spacer is transparent
+        SPACER_PANEL.setVisible(true);
+
+
+
+        this.add(backButton);
+        this.add(SPACER_PANEL); // Invisible, future-proof spacer
+        this.add(settingsButton);
+    }
+}

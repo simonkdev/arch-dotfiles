@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Wal",
+    "[java]": {
+        "editor.defaultFormatter": "vscjava.vscode-gradle"
+    }
+}
