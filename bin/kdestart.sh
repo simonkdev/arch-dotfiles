@@ -1,0 +1,2 @@
+docker start WinApps
+walfetchkde
