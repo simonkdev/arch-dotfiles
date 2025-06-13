@@ -1,0 +1,10 @@
+- Game engine integration
+- Aesthetics overhaul
+- Main Menu
+- Overlays for:
+    - quit confirmation
+    - settings
+- general functionality of game
+- piece rendering (font?)
+
+--> fontforge.org

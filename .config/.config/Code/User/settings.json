@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "[java]": {
+        "editor.defaultFormatter": "vscjava.vscode-gradle"
+    },
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "catppuccin-frappe"
+}

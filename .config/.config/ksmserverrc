@@ -1,0 +1,19 @@
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10d1d3c768000174965223500000038280009
+clientId2=10d1d3c768000174965277700000055020005
+count=2
+discardCommand2[$e]=rm,$HOME/.config/session/systemsettings_10d1d3c768000174965277700000055020005_1749652873_587487
+program1=firefox
+program2=/usr/bin/systemsettings
+restartCommand1=/usr/lib/firefox/firefox,--sm-client-id,10d1d3c768000174965223500000038280009
+restartCommand2=/usr/bin/systemsettings,-session,10d1d3c768000174965277700000055020005_1749652873_587487
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=simonkdev
+userId2=simonkdev

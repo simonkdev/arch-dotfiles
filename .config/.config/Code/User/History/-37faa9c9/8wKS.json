@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "[java]": {
+        "editor.defaultFormatter": "vscjava.vscode-gradle"
+    },
+    "git.enableSmartCommit": true
+}

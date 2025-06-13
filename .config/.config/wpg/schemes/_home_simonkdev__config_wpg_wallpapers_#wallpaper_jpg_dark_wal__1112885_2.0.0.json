@@ -1,0 +1,29 @@
+{
+    "checksum": "f7cc6d7f64ab4e838b1a158a767caad8",
+    "wallpaper": "/home/simonkdev/.config/wpg/wallpapers/#wallpaper.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0B0B13",
+        "foreground": "#c2c2c4",
+        "cursor": "#c2c2c4"
+    },
+    "colors": {
+        "color0": "#0B0B13",
+        "color1": "#253195",
+        "color2": "#314DA0",
+        "color3": "#5A5AA1",
+        "color4": "#4540B8",
+        "color5": "#5D65DD",
+        "color6": "#B848BD",
+        "color7": "#c2c2c4",
+        "color8": "#58586c",
+        "color9": "#253195",
+        "color10": "#314DA0",
+        "color11": "#5A5AA1",
+        "color12": "#4540B8",
+        "color13": "#5D65DD",
+        "color14": "#B848BD",
+        "color15": "#c2c2c4"
+    }
+}

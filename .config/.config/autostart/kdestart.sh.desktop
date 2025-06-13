@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/home/simonkdev/bin/kdestart.sh
+Icon=application-x-shellscript
+Name=kdestart.sh
+Type=Application
+X-KDE-AutostartScript=true

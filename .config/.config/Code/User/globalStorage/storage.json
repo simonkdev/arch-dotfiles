@@ -1,0 +1,102 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "d5023521ca6cbfb2083b10804eb1d36df51a8d575c104e241367d0f01390b62f",
+    "telemetry.devDeviceId": "bf84068d-5ffe-43b3-b959-2f6cc1d25bd3",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/simonkdev/repos/Spell-Chess"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "vscode-vfs://github/FRBFStudios/Spell-Chess": "__default__profile__",
+            "vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a2263686573732d75692d646576656c6f706d656e74227d7d/FRBFStudios/Spell-Chess": "__default__profile__",
+            "file:///home/simonkdev/repos/Spell-Chess": "__default__profile__",
+            "file:///home/simonkdev/repos/chess-ui-development": "__default__profile__",
+            "file:///home/simonkdev/repos/Spell-Chess/src": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/simonkdev/repos/Spell-Chess",
+            "backupPath": "/home/simonkdev/.config/Code/Backups/a1d81f739ee748aece71ca61f94e22e8",
+            "uiState": {
+                "mode": 1,
+                "x": 15,
+                "y": 47,
+                "width": 1890,
+                "height": 1018
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#303446",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#c6d0f5",
+            "background": "#303446",
+            "editorBackground": "#303446",
+            "titleBarBackground": "#232634",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#232634",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#292c3c",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#232634",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#232634",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 214,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 214,
+            "auxiliaryBarWidth": 281,
+            "workspaces": {
+                "e26268861290e04f26971bb417109e32": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b3b6470f86eb89b5bf35e00fce68c242": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ea7aa23b956ee545b8e11525e15d56c4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9cdc4d15bc7fa240bb19f9af0d219762": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "468c8d389c4b48c29e57f9b008cba471": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4c1bf42b71fdf975d8818692bf6a0a5e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
